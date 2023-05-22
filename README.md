@@ -8,6 +8,6 @@
 ![image](https://github.com/NWRecognize/Lab3_CIFAR10/assets/118212881/0a70dd59-8b1a-49ac-926e-1f8fea5586aa)
 Примеры картинок:  
 ![image](https://github.com/NWRecognize/Lab3_CIFAR10/assets/118212881/e41d518e-1236-4254-9de3-ff462e4b7744)  
-Корабль
+Корабль  
 ![image](https://github.com/NWRecognize/Lab3_CIFAR10/assets/118212881/cea3e2b0-d3a6-403f-a07a-b0888aedbd05)  
 Самолёт
