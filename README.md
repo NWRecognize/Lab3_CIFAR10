@@ -1,14 +1,13 @@
 # Lab3_CIFAR10
 На основе ноутбука из предыдущего задания (с классификацией по CIFAR10), свернуть нейросеть, используя минимум два уровня свертывания.  
 Слои модели:  
-<pre>keras.layers.Conv2D(32, (3, 3), padding='same', activation='relu', input_shape=(32, 32, 3)),
-    keras.layers.Conv2D(64, (3, 3), padding='same', activation='relu', input_shape=(32, 32, 3)),
-    keras.layers.MaxPooling2D(pool_size=(2, 2), strides=2),
-    keras.layers.Conv2D(64, (3, 3), padding='same', activation="relu", input_shape=(32, 32, 3)),
-    keras.layers.Conv2D(128, (3, 3), padding='same', activation="relu", input_shape=(32, 32, 3)),
-    keras.layers.MaxPooling2D(pool_size=(2, 2), strides=2),
-    keras.layers.Conv2D(128, (3, 3), padding='same', activation="relu", input_shape=(32, 32, 3)),
-    keras.layers.MaxPooling2D(pool_size=(2, 2), strides=2),
-    keras.layers.Flatten(),
-    keras.layers.Dense(128, activation='relu'),
-    keras.layers.Dense(10, activation="softmax")</pre>
+
+Настройки компиляции модели:  
+
+Результаты обучения:  
+
+Примеры картинок:  
+![image](https://github.com/NWRecognize/Lab3_CIFAR10/assets/118212881/8adc97b3-349e-4cc6-b860-348b1809cc61)  
+.  
+![image](https://github.com/NWRecognize/Lab3_CIFAR10/assets/118212881/cea3e2b0-d3a6-403f-a07a-b0888aedbd05)  
+.
